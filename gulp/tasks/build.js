@@ -6,7 +6,7 @@ var runSequence = require('run-sequence');
 gulp.task('build', function(callback) {
   runSequence(
     'clean',
-    ['htdocs', 'javascripts', 'templates', 'stylesheets', 'images', 'fonts', 'bower', 'lds'],
+    ['htdocs', 'javascripts', 'templates', 'config:develop', 'stylesheets', 'images', 'fonts', 'bower', 'lds'],
     callback
   );
 });

@@ -31,6 +31,11 @@ module.exports = {
     dest: dest + '/javascripts',
     outputName: 'templates.js'
   },
+  config: {
+    src: src + '/config.json',
+    dest: dest + '/javascripts',
+    moduleName: 'config'
+  },
   stylesheets: {
     src: [src + '/sass/**/*.{sass,scss}', '!' + src + '/sass/lds.sass'],
     dest: dest + '/stylesheets'
