@@ -1,3 +1,21 @@
-.app-heading
-  background: rgb(199, 117, 22)
-  color: rgb(255, 255, 255)
+/* Application style */
+
+// Import app variables
+
+@import "./variables"
+
+
+// Define application style
+
+.app-masthead
+  background-color: $app-color-primary
+  color: $app-color-white
+
+  .app-masthead--title
+    font-size: 6rem
+
+  .app-masthead--lead
+    font-size: 1.2rem
+
+.app-footer
+  background-color: $app-color-gray-lighter
