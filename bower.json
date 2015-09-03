@@ -1,0 +1,31 @@
+{
+  "name": "blitz",
+  "version": "0.0.0",
+  "authors": [
+    "flect-miyake <akira.miyake@flect.co.jp>"
+  ],
+  "description": "Boilerplate of front-end application with Lightning Desgin System and AngularJS",
+  "keywords": [
+    "AngularJS",
+    "es6",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-animate": "~1.4.5",
+    "angular-route": "~1.4.5",
+    "angular-touch": "~1.4.5",
+    "angular-ui-router": "~0.2.15"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.5"
+  }
+}
